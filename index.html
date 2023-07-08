@@ -39,7 +39,6 @@
 	
 </form>
 
-	<?php
 <?php
 
 // Replace with your email address
@@ -79,7 +78,7 @@ $headers = "Reply-to: $email";
 
 // Send the message
 mail($you, $you, $subject, $headers);
-?>
+	  
 <p>Your message was sent successfully.</p>
 
 ?>
